@@ -54,8 +54,8 @@ const ExpenseForm = (props) => {
           <label>Amount</label>
           <input
             type="number"
-            min="0.01"
-            step="0.01"
+            min="1.00"
+            step="0.10"
             value={enteredAmount}
             onChange={amountChangeHandler}
           />

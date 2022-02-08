@@ -1,5 +1,6 @@
 .new-expense {
-  background-color: #4bdde2;
+  background-color: #00c3ff44;
+  backdrop-filter: blur(8px);
   padding: 1rem;
   margin: 2rem auto;
   width: 50rem;
@@ -16,7 +17,7 @@
   border: 1px solid #00979c;
   background-color: #00979c;
   color: white;
-  border-radius: 12px;
+  border-radius: 8px;
   margin-right: 1rem;
 }
 
