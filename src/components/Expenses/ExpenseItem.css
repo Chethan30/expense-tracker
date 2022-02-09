@@ -5,6 +5,12 @@
   padding: 0.5rem;
   margin: 1rem 0;
   background-color: rgba(153, 153, 153, 0.3);
+
+  transition: transform 300ms ease;
+}
+
+.expense-item:hover {
+  transform: scale(1.0255);
 }
 
 .expense-item__description {

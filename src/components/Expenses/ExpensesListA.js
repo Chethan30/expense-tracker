@@ -1,9 +1,19 @@
 import React from "react";
 import ExpenseItem from "./ExpenseItem";
 import "./ExpensesListA.css";
+import "./EmptyWallet.png";
 const ExpensesListA = (props) => {
   if (props.items.length === 0) {
-    return <h2 className="expenses-list__fallback">Found no expenses!</h2>;
+    return (
+      <div className="outer-container">
+        <img
+          className="oops-img"
+          src={require("./EmptyWallet.png")}
+          alt="Oops!"
+        />
+        <h2 className="expenses-list__fallback">Oops! No expenses found.</h2>
+      </div>
+    );
   }
 
   return (

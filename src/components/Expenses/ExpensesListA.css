@@ -3,7 +3,22 @@
   padding: 0;
 }
 
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
 .expenses-list__fallback {
   color: white;
+  font-size: larger;
   text-align: center;
+}
+
+.oops-img {
+  max-width: 150px;
+  max-height: 150px;
+  margin-bottom: 1rem;
 }
